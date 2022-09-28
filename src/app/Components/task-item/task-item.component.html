@@ -1,0 +1,9 @@
+<mat-card>
+  <div>
+    <h3>{{ task.text }}</h3>
+    <p>{{ task.day }}</p>
+  </div>
+  <button mat-fab color="maroon" (click)="onDelete(task)">
+    <mat-icon>delete</mat-icon>
+  </button>
+</mat-card>

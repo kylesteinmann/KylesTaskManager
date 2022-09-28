@@ -1,0 +1,23 @@
+mat-card {
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  border: solid maroon;
+  margin-bottom: 5px;
+  width: 25vw;
+  min-width:200px;
+}
+
+mat-icon {
+  color:white;
+
+}
+
+button {
+  background-color: maroon;
+
+}
+p {
+  padding:10px 0 0 0;
+
+}

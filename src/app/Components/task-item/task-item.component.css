@@ -4,8 +4,9 @@ mat-card {
   justify-content: space-between;
   border: solid maroon;
   margin-bottom: 5px;
-  width: 25vw;
+  width: 90vw;
   min-width:200px;
+  max-width: 500px;
 }
 
 mat-icon {
@@ -19,5 +20,7 @@ button {
 }
 p {
   padding:10px 0 0 0;
-
+}
+.task.reminder {
+  border-left:5px solid darkblue;
 }
